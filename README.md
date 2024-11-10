@@ -7,8 +7,11 @@ To write a python program for creating Chat using TCP Sockets Links.
 3. Send message to the client and receive the message from the client using the Socket module in
  server
 4. Send and receive the message using the send function in socket.
+## NAME:KISHAN SHREE B
+## REG NO:212223100022
 ## PROGRAM
 ## CLIENT 
+~~~
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -28,6 +31,7 @@ while True:
   print("Client > ",ClientMessage)
   msg=input("Server > ")
   c.send(msg.encode())
+~~~
 
 ## OUPUT
 ![image](https://github.com/user-attachments/assets/8e57bb6f-7281-4b79-b30c-6218f75e8e6c)
